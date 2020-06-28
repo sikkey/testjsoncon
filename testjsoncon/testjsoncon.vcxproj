@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\jsoncons\include\jsoncons\allocator_holder.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\basic_json.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\bigint.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\byte_string.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\config\binary_config.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\config\compiler_support.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\config\jsoncons_config.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\config\version.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\converter.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\convert_error.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\decode_json.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\deser_traits.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\endian.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\grisu3.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\more_type_traits.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\optional.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\parse_number.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\span.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\string_view.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\string_wrapper.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\write_number.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\encode_json.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_container_types.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_content_handler.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_cursor.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_decoder.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_encoder.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_error.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_exception.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_filter.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_fwd.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_options.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_parser.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_reader.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_traits_macros.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_traits_macros_deprecated.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_type.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_type_traits.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_visitor.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_visitor2.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\pretty_print.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\ser_context.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\ser_traits.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\sink.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\source.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\staj_cursor.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\staj_iterator.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\tag_type.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons\unicode_traits.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_cursor.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_detail.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_encoder.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_error.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_options.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_parser.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_reader.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\decode_bson.hpp" />
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\encode_bson.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{D26D6FE8-1343-4EA4-9917-6107058175C0}</ProjectGuid>
+    <RootNamespace>testjsoncon</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)jsoncons\include\jsoncons;$(SolutionDir)jsoncons\include\jsoncons_ext;$(IncludePath);$(SolutionDir)jsoncons\include;$(SolutionDir)third_party</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <SourcePath>$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(IncludePath);$(SolutionDir)jsoncons\include;$(SolutionDir)third_party</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

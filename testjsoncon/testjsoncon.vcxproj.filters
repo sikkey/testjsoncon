@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="jsoncons">
+      <UniqueIdentifier>{52209b09-cf2c-42da-80a7-16c79132a9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncons\include">
+      <UniqueIdentifier>{86504731-8cde-4755-9751-8abdf7a0a7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncons\include\jsoncons">
+      <UniqueIdentifier>{27e1ce17-8484-4084-870e-9d0784f29664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncons\include\jsoncons_ext">
+      <UniqueIdentifier>{6c6ba85a-0f3f-40a4-bc2d-8c6409986316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncons\include\jsoncons\config">
+      <UniqueIdentifier>{b0f33141-1d3c-4854-8b92-d59048b236db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncons\include\jsoncons\detail">
+      <UniqueIdentifier>{a9843e93-db66-482c-a020-9a95cc48414c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncons\include\jsoncons_ext\bson">
+      <UniqueIdentifier>{7858e316-d92d-497d-830d-2803f0774818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{859d46a3-8ca0-42a1-ba95-19218c8dabae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\catch">
+      <UniqueIdentifier>{d2bb1ebe-07d7-448b-8657-50e45df7a74a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\jsoncons\include\jsoncons\config\binary_config.hpp">
+      <Filter>jsoncons\include\jsoncons\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\config\compiler_support.hpp">
+      <Filter>jsoncons\include\jsoncons\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\config\jsoncons_config.hpp">
+      <Filter>jsoncons\include\jsoncons\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\config\version.hpp">
+      <Filter>jsoncons\include\jsoncons\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\grisu3.hpp">
+      <Filter>jsoncons\include\jsoncons\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\more_type_traits.hpp">
+      <Filter>jsoncons\include\jsoncons\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\optional.hpp">
+      <Filter>jsoncons\include\jsoncons\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\parse_number.hpp">
+      <Filter>jsoncons\include\jsoncons\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\span.hpp">
+      <Filter>jsoncons\include\jsoncons\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\string_view.hpp">
+      <Filter>jsoncons\include\jsoncons\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\string_wrapper.hpp">
+      <Filter>jsoncons\include\jsoncons\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\write_number.hpp">
+      <Filter>jsoncons\include\jsoncons\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\detail\endian.hpp">
+      <Filter>jsoncons\include\jsoncons\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\allocator_holder.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\basic_json.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\bigint.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\byte_string.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\convert_error.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\converter.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\decode_json.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\deser_traits.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\encode_json.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_container_types.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_content_handler.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_cursor.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_decoder.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_encoder.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_error.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_exception.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_filter.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_fwd.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_options.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_parser.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_reader.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_traits_macros.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_traits_macros_deprecated.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_type.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_type_traits.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_visitor.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\json_visitor2.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\pretty_print.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\ser_context.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\ser_traits.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\sink.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\source.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\staj_cursor.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\staj_iterator.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\tag_type.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons\unicode_traits.hpp">
+      <Filter>jsoncons\include\jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_detail.hpp">
+      <Filter>jsoncons\include\jsoncons_ext\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_encoder.hpp">
+      <Filter>jsoncons\include\jsoncons_ext\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_error.hpp">
+      <Filter>jsoncons\include\jsoncons_ext\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_options.hpp">
+      <Filter>jsoncons\include\jsoncons_ext\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_parser.hpp">
+      <Filter>jsoncons\include\jsoncons_ext\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_reader.hpp">
+      <Filter>jsoncons\include\jsoncons_ext\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\decode_bson.hpp">
+      <Filter>jsoncons\include\jsoncons_ext\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\encode_bson.hpp">
+      <Filter>jsoncons\include\jsoncons_ext\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson.hpp">
+      <Filter>jsoncons\include\jsoncons_ext\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncons\include\jsoncons_ext\bson\bson_cursor.hpp">
+      <Filter>jsoncons\include\jsoncons_ext\bson</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
